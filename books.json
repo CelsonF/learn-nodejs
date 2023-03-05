@@ -1098,5 +1098,16 @@
 		"title": "Memoirs of Hadrian",
 		"year": 1951,
 		"id": 100
+	},
+	{
+		"author": "Celson F",
+		"country": "Belo Horizonte/Minas Gerais",
+		"imageLink": "none",
+		"language": "Portugues Brasil",
+		"link": "none",
+		"pages": 1002,
+		"title": "Memories of Celson Fernando",
+		"year": 2023,
+		"id": 101
 	}
 ]
