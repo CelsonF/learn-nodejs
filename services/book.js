@@ -32,11 +32,9 @@ function alterBookById(modifications, id) {
 
 function deleteBookById(id) {
 	let currentBooks = JSON.parse(fs.readFileSync("books.json"))
-	const indexDelete = currentBooks.findIndex(book => book.id !== id)
 
-	currentBooks.splice(indexDelete, 1)
-
-	fs.writeFileSync("books.json", JSON.stringify(currentBooks))
+	const filterBooks = currentBooks.filter(book => book.id !== id)
+	fs.writeFileSync("books.json", JSON.stringify(filterBooks))
 }
 
 module.exports = {
